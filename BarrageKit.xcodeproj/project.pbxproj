@@ -15,6 +15,8 @@
 		9E75CA3921FAC14100189475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75CA3821FAC14100189475 /* main.m */; };
 		9E75CA4321FAC14100189475 /* BarrageKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75CA4221FAC14100189475 /* BarrageKitTests.m */; };
 		9E75CA4E21FAC14100189475 /* BarrageKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75CA4D21FAC14100189475 /* BarrageKitUITests.m */; };
+		9E75CA6821FAE37A00189475 /* HYBarrageContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75CA6421FAE37A00189475 /* HYBarrageContainerView.m */; };
+		9E75CA6921FAE37A00189475 /* HYBarrageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75CA6521FAE37A00189475 /* HYBarrageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		9E75CA4921FAC14100189475 /* BarrageKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrageKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E75CA4D21FAC14100189475 /* BarrageKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageKitUITests.m; sourceTree = "<group>"; };
 		9E75CA4F21FAC14100189475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E75CA6321FAE37A00189475 /* HYBarrageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBarrageCell.h; sourceTree = "<group>"; };
+		9E75CA6421FAE37A00189475 /* HYBarrageContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBarrageContainerView.m; sourceTree = "<group>"; };
+		9E75CA6521FAE37A00189475 /* HYBarrageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBarrageCell.m; sourceTree = "<group>"; };
+		9E75CA6621FAE37A00189475 /* HYBarrageContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBarrageContainerView.h; sourceTree = "<group>"; };
+		9E75CA6721FAE37A00189475 /* IHYBarrageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHYBarrageContainer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 		9E75CA2821FAC13F00189475 /* BarrageKit */ = {
 			isa = PBXGroup;
 			children = (
+				9E75CA6221FAE37A00189475 /* HYBarrage */,
 				9E75CA2921FAC13F00189475 /* AppDelegate.h */,
 				9E75CA2A21FAC13F00189475 /* AppDelegate.m */,
 				9E75CA2C21FAC13F00189475 /* ViewController.h */,
@@ -130,6 +138,18 @@
 				9E75CA4F21FAC14100189475 /* Info.plist */,
 			);
 			path = BarrageKitUITests;
+			sourceTree = "<group>";
+		};
+		9E75CA6221FAE37A00189475 /* HYBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				9E75CA6321FAE37A00189475 /* HYBarrageCell.h */,
+				9E75CA6421FAE37A00189475 /* HYBarrageContainerView.m */,
+				9E75CA6521FAE37A00189475 /* HYBarrageCell.m */,
+				9E75CA6621FAE37A00189475 /* HYBarrageContainerView.h */,
+				9E75CA6721FAE37A00189475 /* IHYBarrageContainer.h */,
+			);
+			path = HYBarrage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E75CA2E21FAC13F00189475 /* ViewController.m in Sources */,
+				9E75CA6821FAE37A00189475 /* HYBarrageContainerView.m in Sources */,
+				9E75CA6921FAE37A00189475 /* HYBarrageCell.m in Sources */,
 				9E75CA3921FAC14100189475 /* main.m in Sources */,
 				9E75CA2B21FAC13F00189475 /* AppDelegate.m in Sources */,
 			);
